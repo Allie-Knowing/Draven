@@ -21,4 +21,5 @@ object Versions {
     const val NAVIGATION_FRAGMENT = "2.4.2"
     const val NAVIGATION_UI = "2.4.2"
 
+    const val GOOGLE_OAUTH = "20.2.0"
 }
