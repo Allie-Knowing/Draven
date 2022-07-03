@@ -4,6 +4,12 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Programming/Draven/app/src/main/res/layout/activity_main.xml" value="0.34791666666666665" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_bold.xml" value="0.2828125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_light.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_medium.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_regular.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_thin.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/layout/activity_login.xml" value="0.16927083333333334" />
       </map>
     </option>
   </component>
