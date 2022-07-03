@@ -10,9 +10,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven {setUrl("https://jitpack.io")}
     }
 }
 rootProject.name = "Draven"
-include ':presentation'
-include ':domain'
-include ':data'
+include(":presentation")
+include(":domain")
+include(":data")
