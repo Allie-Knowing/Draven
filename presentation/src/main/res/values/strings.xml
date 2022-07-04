@@ -3,4 +3,11 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    
+<!--  sign  -->
+    <string name="login_title">세상의 모든 질문을,\nKnowing.</string>
+    <string name="login_auth_description">로그인 후 질문해보세요.</string>
+    <string name="login_private_description">계속해서 진행하면 Knowing의 이용 약관에 동의하고,\nKnowing의 개인정보 처리방침을 읽었음을 동의하는 것입니다.</string>
+    <string name="google_login_text">Google 계정으로 로그인</string>
+    <string name="naver_login_text">네이버 계정으로 로그인</string>
 </resources>

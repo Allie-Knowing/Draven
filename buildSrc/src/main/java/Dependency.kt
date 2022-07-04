@@ -11,6 +11,12 @@ object Dependency {
 
     object Google{
         const val MATERIAL = "com.google.android.material:material:${Versions.MATERIAL}"
+        const val GOOGLE_OAUTH = "com.google.android.gms:play-services-auth:${Versions.GOOGLE_OAUTH}"
+    }
+
+    object Naver{
+        const val NAVER_OAUTH = "com.navercorp.nid:oauth:${Versions.NAVER_OAUTH}"
+        const val NAVER_OAUTH_JDK = "com.navercorp.nid:oauth-jdk8:${Versions.NAVER_OAUTH}"
     }
 
     object UnitTest {

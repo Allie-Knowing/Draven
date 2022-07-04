@@ -4,10 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Programming/Draven/app/src/main/res/layout/activity_main.xml" value="0.34791666666666665" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/drawable/ic_logo_google.xml" value="0.2645" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/drawable/login_btn_background.xml" value="0.2645" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_bold.xml" value="0.2828125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_light.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_medium.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_regular.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/font/font_spoqa_thin.xml" value="0.378125" />
+        <entry key="..\:/Programming/Draven/presentation/src/main/res/layout/activity_login.xml" value="0.33" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

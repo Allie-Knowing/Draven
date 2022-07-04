@@ -33,6 +33,7 @@ android {
     }
     buildFeatures {
         viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -48,6 +49,11 @@ dependencies {
     implementation(Dependency.AndroidX.VIEWMODEL)
     implementation(Dependency.AndroidX.NAVIGATION_FRAGMENT)
     implementation(Dependency.AndroidX.NAVIGATION_UI)
+
+    implementation(Dependency.Google.GOOGLE_OAUTH)
+    implementation(Dependency.Naver.NAVER_OAUTH)
+    implementation(Dependency.Naver.NAVER_OAUTH_JDK)
+
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)
