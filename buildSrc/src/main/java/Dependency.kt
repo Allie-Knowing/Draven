@@ -9,6 +9,10 @@ object Dependency {
         const val NAVIGATION_UI = "androidx.navigation:navigation-ui-ktx:${Versions.NAVIGATION_UI}"
     }
 
+    object Kotlin {
+        const val COROUTINE = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.COROUTINE}"
+    }
+
     object Google{
         const val MATERIAL = "com.google.android.material:material:${Versions.MATERIAL}"
         const val GOOGLE_OAUTH = "com.google.android.gms:play-services-auth:${Versions.GOOGLE_OAUTH}"
