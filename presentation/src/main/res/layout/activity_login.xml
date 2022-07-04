@@ -96,6 +96,23 @@
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:id="@+id/privacy_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="105dp"
+            android:layout_gravity="center"
+            android:text="@string/login_private_description"
+            android:textSize="12sp"
+            android:textColor="@color/gray_scale6"
+            android:fontFamily="@font/font_spoqa_thin"
+            android:gravity="center"/>
+
     </LinearLayout>
 
 </layout>
