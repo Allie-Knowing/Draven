@@ -26,4 +26,7 @@ object Versions {
 
     const val RETROFIT = "2.9.0"
     const val OKHTTP = "5.0.0-alpha.2"
+
+    const val HILT = "2.38.1"
+    const val HILT_VIEWMODEL = "1.0.0-alpha03"
 }

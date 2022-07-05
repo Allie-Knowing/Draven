@@ -1,6 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    kotlin("kapt")
 }
 
 android {
@@ -59,6 +60,10 @@ dependencies {
     implementation(Dependency.Library.OKHTTP)
     implementation(Dependency.Library.OKHTTP_LOGGING_INTERCEPTOR)
     implementation(Dependency.Library.OKHTTP_URL_CONNECTION)
+
+    implementation(Dependency.Google.HILT_ANDROID)
+    implementation(Dependency.Google.HILT_VIEWMODEL)
+    kapt(Dependency.Google.HILT_ANDROID_COMPILER)
 
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)

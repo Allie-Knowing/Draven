@@ -16,6 +16,10 @@ object Dependency {
     object Google{
         const val MATERIAL = "com.google.android.material:material:${Versions.MATERIAL}"
         const val GOOGLE_OAUTH = "com.google.android.gms:play-services-auth:${Versions.GOOGLE_OAUTH}"
+
+        const val HILT_ANDROID = "com.google.dagger:hilt-android:${Versions.HILT}"
+        const val HILT_ANDROID_COMPILER = "com.google.dagger:hilt-android-compiler:${Versions.HILT}"
+        const val HILT_VIEWMODEL = "androidx.hilt:hilt-lifecycle-viewmodel:${Versions.HILT_VIEWMODEL}"
     }
 
     object Naver{
