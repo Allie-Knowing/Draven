@@ -4,6 +4,7 @@
     package="com.knowing.draven">
 
     <application
+        android:name=".di.DravenApplication"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
