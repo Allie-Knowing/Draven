@@ -23,4 +23,7 @@ object Versions {
 
     const val GOOGLE_OAUTH = "20.2.0"
     const val NAVER_OAUTH = "5.1.1"
+
+    const val RETROFIT = "2.9.0"
+    const val OKHTTP = "5.0.0-alpha.2"
 }

@@ -54,6 +54,12 @@ dependencies {
     implementation(Dependency.Google.GOOGLE_OAUTH)
     implementation(Dependency.Naver.NAVER_OAUTH)
 
+    implementation(Dependency.Library.RETROFIT)
+    implementation(Dependency.Library.RETROFIT_CONVERTER_GSON)
+    implementation(Dependency.Library.OKHTTP)
+    implementation(Dependency.Library.OKHTTP_LOGGING_INTERCEPTOR)
+    implementation(Dependency.Library.OKHTTP_URL_CONNECTION)
+
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)

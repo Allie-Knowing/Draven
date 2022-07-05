@@ -36,6 +36,13 @@ dependencies {
     implementation(Dependency.AndroidX.CORE_KTX)
     implementation(Dependency.AndroidX.APPCOMPAT)
     implementation(Dependency.Google.MATERIAL)
+
+    implementation(Dependency.Library.RETROFIT)
+    implementation(Dependency.Library.RETROFIT_CONVERTER_GSON)
+    implementation(Dependency.Library.OKHTTP)
+    implementation(Dependency.Library.OKHTTP_LOGGING_INTERCEPTOR)
+    implementation(Dependency.Library.OKHTTP_URL_CONNECTION)
+
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)
