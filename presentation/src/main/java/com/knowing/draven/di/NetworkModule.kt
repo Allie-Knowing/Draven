@@ -19,7 +19,8 @@ import javax.inject.Singleton
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
 
-    private const val BASE_URL = "https://knowing-server.allie.kr"
+    private const val BASE_URL = "https://knowing-server.allie.kr/"
+    private const val GOOGLE_BASE_URL = "https://accounts.google.com/"
 
     @Provides
     @Singleton
