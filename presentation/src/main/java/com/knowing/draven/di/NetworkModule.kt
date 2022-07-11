@@ -52,8 +52,8 @@ object NetworkModule {
             .setLenient()
             .create()
 
-    @Provides
-    fun provideAuthAPI(retrofit: Retrofit): AuthAPI =
-        retrofit.create(AuthAPI::class.java)
+//    @Provides
+//    fun provideAuthAPI(retrofit: Retrofit): AuthAPI =
+//        retrofit.create(AuthAPI::class.java)
 
 }

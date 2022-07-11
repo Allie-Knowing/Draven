@@ -2,6 +2,7 @@ package com.knowing.draven.ui.sign
 
 import android.content.Intent
 import android.os.Bundle
+import android.util.Log
 import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
@@ -21,10 +22,11 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
         binding.activity = this
 
         val gso = GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+            .requestIdToken(applicationContext.resources.getString(R.string.))
             .requestEmail()
             .build()
         val client = GoogleSignIn.getClient(this, gso)
-
+        client.signOut()
 
         activityLauncher =
             registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result: ActivityResult ->
@@ -32,6 +34,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
                     try {
                         val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
                         val account = task.result
+                        Log.d("TAG",account.toString())
                     } catch (e: ApiException) {
                         e.printStackTrace()
                     }
