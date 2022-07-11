@@ -3,6 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="google_client_id">414970516629-654sesumfduk6dgv32cfcsiof4djkr1k.apps.googleusercontent.com</string>
     
 <!--  sign  -->
     <string name="login_title">세상의 모든 질문을,\nKnowing.</string>
