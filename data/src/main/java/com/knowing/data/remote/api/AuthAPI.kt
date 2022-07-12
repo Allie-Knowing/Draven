@@ -6,7 +6,7 @@ import retrofit2.http.Body
 import retrofit2.http.POST
 
 interface AuthAPI {
-    @POST("/google")
+    @POST("/auth/google")
     suspend fun fetchGoogleSignIn(
         @Body body: HashMap<String, String>
     ): FetchGoogleSignInResponse
