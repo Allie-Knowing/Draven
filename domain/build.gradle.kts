@@ -42,6 +42,8 @@ dependencies {
     implementation(Dependency.Google.HILT_VIEWMODEL)
     kapt(Dependency.Google.HILT_ANDROID_COMPILER)
 
+    implementation(Dependency.Kotlin.COROUTINE)
+
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)
