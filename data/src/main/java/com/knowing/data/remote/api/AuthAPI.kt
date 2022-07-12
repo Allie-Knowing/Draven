@@ -8,12 +8,7 @@ import retrofit2.http.Url
 
 interface AuthAPI {
     @POST("/google")
-    suspend fun googleLogin(
+    suspend fun fetchGoogleSignIn(
         @Body body: GoogleLoginRequest
     ): GoogleLoginResponse
-
-    @POST
-    suspend fun fetchGoogleAuthInfo(
-        @Url url: String
-    )
 }
