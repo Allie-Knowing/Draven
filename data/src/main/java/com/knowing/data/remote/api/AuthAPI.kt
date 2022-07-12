@@ -8,6 +8,6 @@ import retrofit2.http.POST
 interface AuthAPI {
     @POST("/google")
     suspend fun fetchGoogleSignIn(
-        @Body body: FetchGoogleSignInRequest
+        @Body body: HashMap<String, String>
     ): FetchGoogleSignInResponse
 }
