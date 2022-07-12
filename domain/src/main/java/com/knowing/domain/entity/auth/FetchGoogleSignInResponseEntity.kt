@@ -1,4 +1,4 @@
-package com.knowing.domain.base.entity.auth
+package com.knowing.domain.entity.auth
 
 data class FetchGoogleSignInResponseEntity(
     val access_token: String,

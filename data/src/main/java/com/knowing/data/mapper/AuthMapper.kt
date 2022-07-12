@@ -1,7 +1,7 @@
 package com.knowing.data.mapper
 
 import com.knowing.data.remote.response.FetchGoogleSignInResponse
-import com.knowing.domain.base.entity.auth.FetchGoogleSignInResponseEntity
+import com.knowing.domain.entity.auth.FetchGoogleSignInResponseEntity
 
 object AuthMapper {
     fun mapperToFetchGoogleLoginEntity(fetchGoogleSignInResponse: FetchGoogleSignInResponse) =

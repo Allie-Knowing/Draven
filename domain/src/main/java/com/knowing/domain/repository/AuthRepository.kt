@@ -1,6 +1,6 @@
-package com.knowing.domain.base.repository
+package com.knowing.domain.repository
 
-import com.knowing.domain.base.entity.auth.FetchGoogleSignInResponseEntity
+import com.knowing.domain.entity.auth.FetchGoogleSignInResponseEntity
 
 interface AuthRepository {
     suspend fun fetchGoogleSignIn(body: HashMap<String, String>): FetchGoogleSignInResponseEntity
