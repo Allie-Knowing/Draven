@@ -15,6 +15,7 @@ object Versions {
     const val JUNIT_TEST = "1.1.3"
     const val ESPRESSO = "3.4.0"
     const val COROUTINE = "1.3.9"
+    const val LIFECYCLE_KTX = "2.4.1"
 
     const val LIVE_DATA = "2.4.1"
     const val VIEWMODEL = "2.4.1"

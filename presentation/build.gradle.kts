@@ -71,6 +71,10 @@ dependencies {
 
     implementation(Dependency.Kotlin.COROUTINE)
 
+    implementation(Dependency.AndroidX.LIFECYCLE_LIVEDATA_KTX)
+    implementation(Dependency.AndroidX.LIFECYCLE_VIEWMODEL_KTX)
+    implementation(Dependency.AndroidX.LIFECYCLE_VIEWMODEL_RUNTIME_KTX)
+
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)
