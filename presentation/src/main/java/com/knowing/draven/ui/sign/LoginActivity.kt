@@ -48,8 +48,7 @@ class LoginActivity : BaseActivity<ActivityLoginBinding>(R.layout.activity_login
                     try {
                         val task = GoogleSignIn.getSignedInAccountFromIntent(result.data)
                         val account = task.result
-                        Log.d("Code", account.serverAuthCode.toString())
-                        vm.googleSignIn(account.serverAuthCode.toString())
+                            vm.googleSignIn(account.serverAuthCode.toString())
                     } catch (e: ApiException) {
                         e.printStackTrace()
                     }
