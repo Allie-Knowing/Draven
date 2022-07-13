@@ -1,6 +1,10 @@
+import com.android.build.gradle.internal.cxx.configure.gradleLocalProperties
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
+    id("dagger.hilt.android.plugin")
+    kotlin("kapt")
 }
 
 android {
@@ -14,6 +18,7 @@ android {
         versionName = Versions.VERSIONS_NAME
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "GOOGLE_CLIENT_ID", getGoogleClientId("GOOGLE_CLIENT_ID"))
     }
 
     buildTypes {
@@ -49,12 +54,31 @@ dependencies {
     implementation(Dependency.AndroidX.VIEWMODEL)
     implementation(Dependency.AndroidX.NAVIGATION_FRAGMENT)
     implementation(Dependency.AndroidX.NAVIGATION_UI)
+    implementation(Dependency.Kotlin.COROUTINE)
 
     implementation(Dependency.Google.GOOGLE_OAUTH)
     implementation(Dependency.Naver.NAVER_OAUTH)
-    implementation(Dependency.Naver.NAVER_OAUTH_JDK)
+
+    implementation(Dependency.Library.RETROFIT)
+    implementation(Dependency.Library.RETROFIT_CONVERTER_GSON)
+    implementation(Dependency.Library.OKHTTP)
+    implementation(Dependency.Library.OKHTTP_LOGGING_INTERCEPTOR)
+    implementation(Dependency.Library.OKHTTP_URL_CONNECTION)
+
+    implementation(Dependency.Google.HILT_ANDROID)
+    implementation(Dependency.Google.HILT_VIEWMODEL)
+    kapt(Dependency.Google.HILT_ANDROID_COMPILER)
+
+    implementation(Dependency.Kotlin.COROUTINE)
+
+    implementation(Dependency.AndroidX.LIFECYCLE_LIVEDATA_KTX)
+    implementation(Dependency.AndroidX.LIFECYCLE_VIEWMODEL_KTX)
+    implementation(Dependency.AndroidX.LIFECYCLE_VIEWMODEL_RUNTIME_KTX)
 
     testImplementation(Dependency.UnitTest.JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ANDROID_JUNIT)
     androidTestImplementation(Dependency.AndroidTest.ESPRESSO_CORE)
 }
+
+fun getGoogleClientId(propertyKey: String): String =
+    gradleLocalProperties(rootDir).getProperty(propertyKey)

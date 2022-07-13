@@ -1,6 +1,6 @@
 object Versions {
     const val COMPILE_SDK_VERSION = 32
-    const val APPLICATION_ID = "com.example.draven"
+    const val APPLICATION_ID = "com.knowing.draven"
     const val MIN_SDK = 21
     const val TARGET_SDK = 32
     const val VERSION_CODE = 1
@@ -14,7 +14,8 @@ object Versions {
     const val JUNIT = "4.13.2"
     const val JUNIT_TEST = "1.1.3"
     const val ESPRESSO = "3.4.0"
-
+    const val COROUTINE = "1.3.9"
+    const val LIFECYCLE_KTX = "2.4.1"
 
     const val LIVE_DATA = "2.4.1"
     const val VIEWMODEL = "2.4.1"
@@ -23,4 +24,10 @@ object Versions {
 
     const val GOOGLE_OAUTH = "20.2.0"
     const val NAVER_OAUTH = "5.1.1"
+
+    const val RETROFIT = "2.9.0"
+    const val OKHTTP = "5.0.0-alpha.2"
+
+    const val HILT = "2.38.1"
+    const val HILT_VIEWMODEL = "1.0.0-alpha03"
 }

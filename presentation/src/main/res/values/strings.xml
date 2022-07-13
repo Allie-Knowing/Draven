@@ -3,7 +3,7 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
-    
+
 <!--  sign  -->
     <string name="login_title">세상의 모든 질문을,\nKnowing.</string>
     <string name="login_auth_description">로그인 후 질문해보세요.</string>
